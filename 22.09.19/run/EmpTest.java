@@ -19,6 +19,7 @@ public class EmpTest {
 		System.out.println("3. 사원정보 출력");
 		System.out.println("9. 끝내기");
 		System.out.println("***************************************");
+		System.out.print("메뉴 : ");
 		int num = sc.nextInt();
 		
 		switch(num) {
