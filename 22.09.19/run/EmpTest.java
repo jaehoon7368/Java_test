@@ -23,13 +23,25 @@ public class EmpTest {
 		
 		switch(num) {
 		case 1: e.empInput(); break;
-		case 2: e = new Employee(); e.empOutput(); break;
+		case 2: //e = new Employee(); e.empOutput(); break;
+				e.setEmpNo(0);
+				e.setEmpName(null);
+				e.setDept(null);
+				e.setJob(null);
+				e.setAge(0);
+				e.setGender(' ');
+				e.setSalary(0);
+				e.setBounsPoint(0);
+				e.setPhone(null);
+				e.setAddress(null);
+				System.out.println("회원정보가 삭제되었습니다.");
+				break;
 		case 3: e.empOutput(); break;
 		case 9: break abc;
 		default :
 			System.out.println("잘못입력하였습니다.");
 			break;
-		}
+			}
 		}
 		
 	}
