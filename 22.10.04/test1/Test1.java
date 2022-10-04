@@ -30,7 +30,7 @@ public class Test1 {
 			}
 			//다 읽은 다음, StringBuilder 에 보관된 값을 String으로 바꾸어 화면에 출력함
 			System.out.println(sb.toString());
-			
+	
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
