@@ -14,7 +14,6 @@ public class Test1 {
 	// + fileRead() : void
 	public void fileRead() {
 		
-		
 	    //키보드로 읽을 대상파일명을 입력받음
 	    //파일 읽기용 스트림 객체 생성함 : FileReader 사용
 		System.out.print("입력받을 파일명 : ");
